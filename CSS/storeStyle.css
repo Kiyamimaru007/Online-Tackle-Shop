@@ -1,0 +1,110 @@
+/*I start with general css such as body, headings, etc
+Firstly I want my page to be in the center of the screen*/
+body{
+
+    margin:auto
+}
+/*I will align all h1 and h2 headins to the center because those will be the main headings of the page*/
+h4,
+h3,
+h2,
+h1{
+
+    background-color: cadetblue;
+    background-size: cover;
+    font-family: cursive;
+    text-align: center;
+}
+/*When the user hovers over an image I want the image to slightly enlarge*/
+
+img{
+
+    display: block;
+    margin: auto;
+    width: 300px;
+    height: 300px;
+    padding: 4px;
+}
+
+a:hover{
+
+    color: blueviolet;
+}
+
+/*Next I'm going to style the nav bar*/
+nav {
+    text-align: center;
+    background-color: cornflowerblue;
+    border-bottom: 4px solid black;
+}
+
+.items ol {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.item {
+    display: inline-block;
+}
+
+.item a::after {
+
+    display: inline-block;
+    color: black;
+    content: '>';
+    font-size: 80%;
+    font-weight: bold;
+    padding: 0 4px;
+}
+
+.item > a{
+
+    color: black;
+}
+
+.item a:hover{
+
+    color: red;
+    font-size: 120%;
+}
+
+/*Next I'm going to style the sections*/
+.section4,
+.section3,
+.section2,
+.section1{
+
+    background-size: cover;
+}
+
+/*Next I'm to style the grids*/
+.container{
+
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 10px;
+}
+
+picture img:hover{
+
+    width: 400px;
+    height: 400px;
+}
+
+/*Lastly I'm gonna style the form*/
+.subscription{
+
+    background-color: cadetblue;
+}
+
+button{
+
+    padding: 4px;
+}
+
+.review{
+
+    padding-left: 5px;;
+    background-color: cadetblue;
+}

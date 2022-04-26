@@ -1,0 +1,495 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+    <title>Kiyams Tackle Shop items</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" 
+    integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" 
+    crossorigin="anonymous">
+    <link rel="stylesheet" href="CSS/ItemsPage.css">
+    <style>
+
+        h4{
+
+            border: solid;
+            border-color: black;
+            border-radius: 5px;
+        }
+        p{
+
+            border: solid;
+            border-color: black;
+            border-radius: 5px;
+            background-color: cadetblue;
+        }
+        table{
+
+            width: 300px;
+            margin: auto;
+            box-shadow: 5px 5px royalblue;
+            border: solid;
+            border-color: black;
+        }
+
+        table th{
+
+            font-family: cursive;
+            background-color: cadetblue;
+            text-align: center;
+        }
+
+        table td{
+
+            background-color: cadetblue;
+            text-align: center;
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <!--The item page will match the main page in format and style however it wont have the image but instead the info-->
+
+    <!--I still start the page with a nav bar like the landing page-->
+    <nav class="navBar" id="Top">
+        <ul class="items">
+            <li class="item"><a href="KiyamsTackleShop.html">Home</a></li>
+            <li class="item"><a href="AboutUs.html">About Us</a></li>
+            <li class="item"><a href="KiyamsTackleShop.html#randR">Rods & Reels</a></li>
+            <li class="item"><a href="KiyamsTackleShop.html#hooks">Hooks</a></li>
+            <li class="item"><a href="KiyamsTackleShop.html#sAndS">Swivels & Sinkers</a></li>
+            <li class="item"><a href="KiyamsTackleShop.html#lAndL">Leaders & Lures</a></li>
+            <li class="item"><a href="KiyamsTackleShop.html#sub">Subscribe</a></li>
+            <li class="item"><a href="ShoppingCart.html">Shopping Cart</a></li>
+        </ul>
+    </nav>
+
+    <!--The following sections will match those of the main page in format but will instead give a description and price of the items-->
+    <section class="section1" style="background-image: url('Images/Section1.JPG')">
+
+        <h2 id="rAndR">Rods n Reels</h2>
+
+        <!--I'm going to use the grid format from bootstrap to set out my items next to eachother-->
+        <!--In each of the sections there will be an image of the products, a breif description and the prices.-->
+        <div class = "container">
+            <div class = "row">
+                <div class = "col-md-4">
+                    <h4>Rod</h4>
+                    <p>A 2 piece black rod in varing sizes</p>
+                    <table class="table table-bordered" style="border-radius: 5px;">
+                        <thead>
+                            <tr>
+                                <th><b>Size</b></th>
+                                <th><b>Price</b></th>
+                                <th></th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>8-Feet</td>
+                                <td>R600</td>
+                                <td><button class="btn btn-primary">Add To Cart</button></td>
+                            </tr>
+                            <tr>
+                                <td>10-Feet</td>
+                                <td>R800</td>
+                                <td><button class="btn btn-primary">Add To Cart</button></td>
+                            </tr>
+                            <tr>
+                                <td>12-Feet</td>
+                                <td>R1000</td>
+                                <td><button class="btn btn-primary">Add To Cart</button></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <div class = "col-md-4">
+                    <h4>Reel</h4>
+                    <p>A single reel in a variety of colours. Fishing Line Included</p>
+                    <table class="table table-bordered">
+                        <thead>
+                            <tr>
+                                <th><b>Colour</b></th>
+                                <th><b>Price</b></th>
+                                <th></th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Blue</td>
+                                <td>R300</td>
+                                <td><button class="btn btn-primary">Add To Cart</button></td>
+                            </tr>
+                            <tr>
+                                <td>Gold</td>
+                                <td>R350</td>
+                                <td><button class="btn btn-primary">Add To Cart</button></td>
+                            </tr>
+                            <tr>
+                                <td>Silver</td>
+                                <td>R320</td>
+                                <td><button class="btn btn-primary">Add To Cart</button></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <div class = "col-md-4">
+                    <h4>Rod and Reel</h4>
+                    <p>A rod and reel combination with a blue reel</p>
+                    <table class="table table-bordered">
+                        <thead>
+                            <tr>
+                                <th><b>Size</b></th>
+                                <th><b>Price</b></th>
+                                <th></th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>8-Feet</td>
+                                <td>R850</td>
+                                <td><button class="btn btn-primary">Add To Cart</button></td>
+                            </tr>
+                            <tr>
+                                <td>10-Feet</td>
+                                <td>R1050</td>
+                                <td><button class="btn btn-primary">Add To Cart</button></td>
+                            </tr>
+                            <tr>
+                                <td>12-Feet</td>
+                                <td>R1250</td>
+                                <td><button class="btn btn-primary">Add To Cart</button></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <section class="section2" style="background-image: url('Images/Section2.JPG');">
+
+        <h2 id="hooks">Hooks</h2>
+
+        <div class = "container">
+            <div class = "row">
+                <div class = "col-md-4">
+                    <h4>J-Hooks</h4>
+                    <p>J-hooks in a variety of sizes. Each pack contains 10 hooks</p>
+                    <table class="table table-bordered">
+                        <thead>
+                            <tr>
+                                <th><b>Size</b></th>
+                                <th><b>Price</b></th>
+                                <th></th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Size-2</td>
+                                <td>R19</td>
+                                <td><button class="btn btn-primary">Add To Cart</button></td>
+                            </tr>
+                            <tr>
+                                <td>Size-4</td>
+                                <td>R20</td>
+                                <td><button class="btn btn-primary">Add To Cart</button></td>
+                            </tr>
+                            <tr>
+                                <td>Size-6</td>
+                                <td>R22</td>
+                                <td><button class="btn btn-primary">Add To Cart</button></td>
+                            </tr>
+                            <tr>
+                                <td>Size-8</td>
+                                <td>R25</td>
+                                <td><button class="btn btn-primary">Add To Cart</button></td>
+                            </tr>
+                            <tr>
+                                <td>Size-10</td>
+                                <td>R30</td>
+                                <td><button class="btn btn-primary">Add To Cart</button></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <div class = "col-md-4">
+                    <h4>Circle Hooks</h4>
+                    <p>Circle hooks in a variety of sizes. Each pack contains 10 hooks</p>
+                    <table class="table table-bordered">
+                        <thead>
+                            <tr>
+                                <th><b>Size</b></th>
+                                <th><b>Price</b></th>
+                                <th></th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Size-2</td>
+                                <td>R19</td>
+                                <td><button class="btn btn-primary">Add To Cart</button></td>
+                            </tr>
+                            <tr>
+                                <td>Size-4</td>
+                                <td>R20</td>
+                                <td><button class="btn btn-primary">Add To Cart</button></td>
+                            </tr>
+                            <tr>
+                                <td>Size-6</td>
+                                <td>R22</td>
+                                <td><button class="btn btn-primary">Add To Cart</button></td>
+                            </tr>
+                            <tr>
+                                <td>Size-8</td>
+                                <td>R25</td>
+                                <td><button class="btn btn-primary">Add To Cart</button></td>
+                            </tr>
+                            <tr>
+                                <td>Size-10</td>
+                                <td>R30</td>
+                                <td><button class="btn btn-primary">Add To Cart</button></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <div class = "col-md-4">
+                    <h4>Cob Circle Hooks</h4>
+                    <p>Circle hooks with rubber attached for zip tie attachment. Each pack contains 2 hooks</p>
+                    <table class="table table-bordered">
+                        <thead>
+                            <tr>
+                                <th><b>Size</b></th>
+                                <th><b>Price</b></th>
+                                <th></th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Size-2</td>
+                                <td>R19</td>
+                                <td><button class="btn btn-primary">Add To Cart</button></td>
+                            </tr>
+                            <tr>
+                                <td>Size-4</td>
+                                <td>R20</td>
+                                <td><button class="btn btn-primary">Add To Cart</button></td>
+                            </tr>
+                            <tr>
+                                <td>Size-6</td>
+                                <td>R22</td>
+                                <td><button class="btn btn-primary">Add To Cart</button></td>
+                            </tr>
+                            <tr>
+                                <td>Size-8</td>
+                                <td>R25</td>
+                                <td><button class="btn btn-primary">Add To Cart</button></td>
+                            </tr>
+                            <tr>
+                                <td>Size-10</td>
+                                <td>R30</td>
+                                <td><button class="btn btn-primary">Add To Cart</button></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <section class="section3" style="background-image: url('Images/Section3.JPG')">
+
+        <h2 id="sAndS">Swivels & Sinkers</h2>
+
+        <div class = "container">
+            <div class = "row">
+                <div class = "col-md-6">
+                    <h4>Swivels</h4>
+                    <p>Swivels in a variety of sizes. Each pack has 10 swivels</p>
+                    <table class="table table-bordered">
+                        <thead>
+                            <tr>
+                                <th><b>Size</b></th>
+                                <th><b>Price</b></th>
+                                <th></th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Size-2</td>
+                                <td>R19</td>
+                                <td><button class="btn btn-primary">Add To Cart</button></td>
+                            </tr>
+                            <tr>
+                                <td>Size-4</td>
+                                <td>R20</td>
+                                <td><button class="btn btn-primary">Add To Cart</button></td>
+                            </tr>
+                            <tr>
+                                <td>Size-6</td>
+                                <td>R22</td>
+                                <td><button class="btn btn-primary">Add To Cart</button></td>
+                            </tr>
+                            <tr>
+                                <td>Size-8</td>
+                                <td>R25</td>
+                                <td><button class="btn btn-primary">Add To Cart</button></td>
+                            </tr>
+                            <tr>
+                                <td>Size-10</td>
+                                <td>R30</td>
+                                <td><button class="btn btn-primary">Add To Cart</button></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <div class = "col-md-6">
+                    <h4>Ball Sinkers</h4>
+                    <p>Ball sinkers in a variety of weights. each pack contains 5 sinkers</p>
+                    <table class="table table-bordered">
+                        <thead>
+                            <tr>
+                                <th><b>weight</b></th>
+                                <th><b>Price</b></th>
+                                <th></th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Half Ounce</td>
+                                <td>R19</td>
+                                <td><button class="btn btn-primary">Add To Cart</button></td>
+                            </tr>
+                            <tr>
+                                <td>Quarter Ounce</td>
+                                <td>R20</td>
+                                <td><button class="btn btn-primary">Add To Cart</button></td>
+                            </tr>
+                            <tr>
+                                <td>3 Quarter Ounce</td>
+                                <td>R22</td>
+                                <td><button class="btn btn-primary">Add To Cart</button></td>
+                            </tr>
+                            <tr>
+                                <td>1 Ounce</td>
+                                <td>R25</td>
+                                <td><button class="btn btn-primary">Add To Cart</button></td>
+                            </tr>
+                            <tr>
+                                <td>2 Ounce</td>
+                                <td>R30</td>
+                                <td><button class="btn btn-primary">Add To Cart</button></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <section class="section4" style="background-image: url('Images/Section4.JPG')">
+
+        <h2 id="lAndL">Leaders and Lures</h2>
+
+        <div class = "container">
+            <div class = "row">
+                <div class = "col-md-6">
+                    <h4>Wire Leaders</h4>
+                    <p>Wire leaders in a variety of lengths. Each pack contains 10 leaders</p>
+                    <table class="table table-bordered">
+                        <thead>
+                            <tr>
+                                <th><b>Lengths</b></th>
+                                <th><b>Price</b></th>
+                                <th></th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>10cm</td>
+                                <td>R50</td>
+                                <td><button class="btn btn-primary">Add To Cart</button></td>
+                            </tr>
+                            <tr>
+                                <td>15cm</td>
+                                <td>R52</td>
+                                <td><button class="btn btn-primary">Add To Cart</button></td>
+                            </tr>
+                            <tr>
+                                <td>20cm</td>
+                                <td>R55</td>
+                                <td><button class="btn btn-primary">Add To Cart</button></td>
+                            </tr>
+                            <tr>
+                                <td>25cm</td>
+                                <td>R58</td>
+                                <td><button class="btn btn-primary">Add To Cart</button></td>
+                            </tr>
+                            <tr>
+                                <td>30cm</td>
+                                <td>R62</td>
+                                <td><button class="btn btn-primary">Add To Cart</button></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <div class = "col-md-6">
+                    <h4>Lure</h4>
+                    <p>Lures in a variety of color combos</p>
+                    <table class="table table-bordered">
+                        <thead>
+                            <tr>
+                                <th><b>colours</b></th>
+                                <th><b>Price</b></th>
+                                <th></th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Blue & Yellow</td>
+                                <td>R220</td>
+                                <td><button class="btn btn-primary">Add To Cart</button></td>
+                            </tr>
+                            <tr>
+                                <td>Red & White</td>
+                                <td>R220</td>
+                                <td><button class="btn btn-primary">Add To Cart</button></td>
+                            </tr>
+                            <tr>
+                                <td>Pink & Blue</td>
+                                <td>R220</td>
+                                <td><button class="btn btn-primary">Add To Cart</button></td>
+                            </tr>
+                            <tr>
+                                <td>White & Purple</td>
+                                <td>R220</td>
+                                <td><button class="btn btn-primary">Add To Cart</button></td>
+                            </tr>
+                            <tr>
+                                <td>Green & Yellow</td>
+                                <td>R300</td>
+                                <td><button class="btn btn-primary">Add To Cart</button></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <a href="#Top">Back To Top</a>
+
+    <!--I import the latest jquery-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="JS/storeFunction.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,94 @@
+/*The body of the landing page will have an image that fits the screen*/
+body{
+
+    image-resolution: 600px;
+    background-size: cover;
+    padding-bottom: 4px;
+}
+
+/*The images will be on either side of the about us box and will be filtered as instructed*/
+img{
+
+    filter: brightness(90%);
+    display: block;
+    margin: auto;
+    width: 250px;
+    height: 250px;
+    border: 2px solid black;
+    padding: 0px;
+}
+
+
+/*I copied all the nav bar css from the previous task because I'm using the same store page with a few differences for the task*/
+nav {
+    text-align: center;
+    background-color: cornflowerblue;
+    border-bottom: 4px solid black;
+    margin-bottom: 0;
+}
+
+.items ol {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.item {
+    display: inline-block;
+}
+
+.item a::after {
+
+    display: inline-block;
+    color: black;
+    content: '>';
+    font-size: 80%;
+    font-weight: bold;
+}
+
+.item > a{
+
+    color: black;
+}
+
+.item a:hover{
+
+    color: red;
+    font-size: 120%;
+}
+
+/*I'm going to style the section in a way that it will be in the cente of the page.
+It must have a heading in cursive to match the theme and a cadetblue background.*/
+section{
+
+    text-align: center;
+    background-position-y: center;
+    margin: auto;
+    background-color: cadetblue;
+    width: fit-content;
+    height: fit-content;
+    border: solid;
+    border-color: black;
+    border-radius: 5px;
+    padding-bottom: 10px;
+    animation: chgColor 5s infinite;
+}
+
+@keyframes chgColor{
+    0%{
+        background-color: cadetblue;
+    }
+    50%{
+        background-color: cornflowerblue;
+    }
+    100%{
+        background-color: cadetblue;
+    }
+}
+
+section h2, p{
+
+    padding-left: 10px;
+    padding-right: 10px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-style: italic;
+}

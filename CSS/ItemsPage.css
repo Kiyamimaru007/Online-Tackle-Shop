@@ -1,0 +1,69 @@
+body{
+
+    margin:auto
+}
+/*I will align all h1 and h2 headins to the center because those will be the main headings of the page*/
+h4,
+h3,
+h2,
+h1{
+
+    background-color: cadetblue;
+    background-size: cover;
+    font-family: cursive;
+    text-align: center;
+}
+
+/*I have copied the css code from the landing page css for the nav bar as they should be the same*/
+nav {
+    text-align: center;
+    background-color: cornflowerblue;
+    border-bottom: 4px solid black;
+}
+
+.items ol {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.item {
+    display: inline-block;
+}
+
+.item a::after {
+
+    display: inline-block;
+    color: black;
+    content: '>';
+    font-size: 80%;
+    font-weight: bold;
+    padding: 0 4px;
+}
+
+.item > a{
+
+    color: black;
+}
+
+.item a:hover{
+
+    color: red;
+    font-size: 120%;
+}
+
+/*Next I'm going to style the sections*/
+.section4,
+.section3,
+.section2,
+.section1{
+
+    background-size: cover;
+}
+
+.container{
+
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 10px;
+}
